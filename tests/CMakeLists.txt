@@ -1,7 +1,7 @@
 
 set(test_name Test)
 
-file(GLOB source *.cpp)
+file(GLOB source *.cpp *.hpp)
 		
 if(WIN32)
 	add_executable(${test_name} ${source})

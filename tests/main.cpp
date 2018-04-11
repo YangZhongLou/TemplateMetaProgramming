@@ -1,9 +1,10 @@
-#include <factorial.hpp>
-#include <iostream>
+#include "testif.hpp"
+
 
 int main()
 {
-	std::cout << Metalib::Factorial<10>::Result << std::endl;
+	Test::TestIf();
+
 	return 0;
 }
 
